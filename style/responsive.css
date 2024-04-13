@@ -1,0 +1,103 @@
+@media (max-width: 991px) {
+    html {
+        font-size: 55%;
+    }
+
+    .benefits__grid,
+    .customer__grid {
+        gap: 1rem;
+    }
+
+    .benefits__card {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px) {
+    nav .nav__links {
+        display: none;
+    }
+
+    .footer__container {
+        grid-template-columns: repeat(2, 1fr);
+        text-align: center;
+    }
+
+    .nav__links {
+        display: none;
+    }
+
+    
+    .benefits__container .section__header {
+        margin-left: 5rem;
+    }
+    
+    .experience__container,
+    .process__container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .benefits__container .benefits__grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+    
+    .process__image {
+        grid-area: 1 / 1 / 2 / 2;
+    }
+    
+    
+    .footer__container {
+        gap: 2rem;
+    }
+}
+
+@media (max-width: 450px) {
+    header .header__container .header__content {
+        padding: 2rem 1.5rem;
+        width: 70%;
+    }
+
+    header .header__container .arrow__down {
+        display: none;
+    }
+    
+    .footer__container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .customer__grid {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1rem;
+    }
+
+    .benefits__container .benefits__grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .subscribe__container .subscribe__description {
+        margin: 1rem 0 2.5rem 0;
+    }
+
+    .customer__nav .section__header,
+    .process__container .section__header,
+    .experience__container .section__header,
+    .benefits__container .section__header {
+        font-size: 2rem;
+        margin-right: 7rem;
+    }
+
+    header .header__container .header__content .header__content_title {
+        font-size: 2rem;
+    }
+
+    header .header__container .header__content .header__content_description {
+        margin-top: .5rem;
+        font-size: 1.2rem;
+    }
+
+    .subscribe__container form button {
+        font-size: 1rem;
+        padding: 1.5rem 3rem;
+    }
+}
